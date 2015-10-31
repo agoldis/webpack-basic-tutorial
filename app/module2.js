@@ -1,5 +1,5 @@
 module.exports = {
   runMe: function () {
-    document.write('module 2\n');
+    document.write('submodule 2 is loaded\n');
   }
 }
