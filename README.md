@@ -1,4 +1,4 @@
-# webpack-basic-tutorial
+# Webpack Basic Tutorial
 Using webpack step by step. The tutorial covers:
 * Create basic module and use CLI webpack to create bundle
 * Add additional modules and track dependecies
