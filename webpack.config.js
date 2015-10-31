@@ -1,11 +1,9 @@
 var config = {
   // context: __dirname + '/app',
-  entry: ['./app/main1','./app/main2'],
+  entry: './app/main',
   output: {
     path: __dirname + '/webpack',
-    filename: 'bundle.js',
-    library: 'bundle_as_module',
-    libraryTarget: 'var'
+    filename: 'bundle.js'
   }
 }
 
