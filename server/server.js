@@ -22,6 +22,8 @@ app.use(webpackDevMiddleware(webpackCompiler, {
   publicPath: webpackConfig.output.publicPath
 }));
 
+app.use(webpackHotMiddleware(webpackCompiler)) // add hot module loader
+
 
 app.listen(port, 'localhost', function onStart(err) {
   if (err) {
